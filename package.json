@@ -1,0 +1,24 @@
+{
+  "name": "project-timeular-invoice",
+  "version": "1.0.0",
+  "description": "application to generate invoice from timeular time entries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "clasp login",
+    "push" : "clasp push",
+    "pull" : "clasp pull"
+  },
+  "author": "Ed Meehan",
+  "license": "MIT",
+  "repository": "https://github.com/edmeehan/gas-timeular-invoices",
+  "keywords": [
+    "google",
+    "apps",
+    "script",
+    "javascript"
+  ],
+  "devDependencies": {
+    "@google/clasp": "^2.4.1"
+  }
+}
